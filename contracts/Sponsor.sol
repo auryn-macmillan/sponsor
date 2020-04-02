@@ -4,8 +4,6 @@ contract Sponsor {
   address public brightID;
   bytes32 public context;
 
-  event NewSponsorship(string context, address _sender);
-
   constructor(address _brightID,bytes32 _context) public {
     brightID = _brightID;
     context = _context;
