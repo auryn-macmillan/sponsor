@@ -1,18 +1,18 @@
-pragma solidity >=0.4.21 <0.7.0;
+pragma solidity ^0.6.4;
+
+import "./BrightID.sol";
 
 contract Sponsor {
-  address public brightID;
+  BrightID public brightID;
   bytes32 public context;
 
-  constructor(address _brightID,bytes32 _context) public {
+  constructor(BrightID _brightID, bytes32 _context) public {
     brightID = _brightID;
     context = _context;
   }
 
-  // sponser any address that sends a transaction to this contract.
+  // sponsor any address that sends a transaction to this contract.
   function sponsor() public payable {
-    bytes memory payload = abi.encodeWithSignature("sponsor(bytes32,bytes32)", context,bytes32(uint256(msg.sender)));
-    (bool success, bytes memory returnData) = address(brightID).call(payload);
-    require(success);
+    brightID.sponsor(context, bytes32(uint(msg.sender)));
   }
 }
