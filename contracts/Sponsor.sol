@@ -12,9 +12,13 @@ contract Sponsor {
    context = _context;
  }
 
+ fallback() external payable {
+  sponsor(msg.sender);
+ }
+
  // sponsor any address that sends a transaction to this contract.
- function sponsor() public payable {
-   brightID.sponsor(context, bytes32(uint(msg.sender)));
+ receive() external payable {
+   sponsor(msg.sender);
  }
 
  // sponsor any address is provided by as an parameter.

@@ -229,15 +229,16 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.4+commit.1dca32f3\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"context\",\"type\":\"bytes32\"}],\"name\":\"addContext\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"context\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"addContextOwner\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"context\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"nodeAddress\",\"type\":\"address\"}],\"name\":\"addNodeToContext\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"context\",\"type\":\"bytes32\"}],\"name\":\"isContext\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"context\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"isContextOwner\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"context\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"nodeAddress\",\"type\":\"address\"}],\"name\":\"isNodeContext\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"nodeAddress\",\"type\":\"address\"},{\"internalType\":\"bytes32\",\"name\":\"context\",\"type\":\"bytes32\"}],\"name\":\"isUniqueHuman\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"context\",\"type\":\"bytes32\"},{\"internalType\":\"bytes32[]\",\"name\":\"cIds\",\"type\":\"bytes32[]\"},{\"internalType\":\"uint8\",\"name\":\"v\",\"type\":\"uint8\"},{\"internalType\":\"bytes32\",\"name\":\"r\",\"type\":\"bytes32\"},{\"internalType\":\"bytes32\",\"name\":\"s\",\"type\":\"bytes32\"}],\"name\":\"register\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"context\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"removeContextOwner\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"context\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"nodeAddress\",\"type\":\"address\"}],\"name\":\"removeNodeToContext\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"context\",\"type\":\"bytes32\"},{\"internalType\":\"bytes32\",\"name\":\"contextid\",\"type\":\"bytes32\"}],\"name\":\"sponsor\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/player1/bin/sponsor/contracts/BrightID.sol\":\"BrightID\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/player1/bin/sponsor/contracts/BrightID.sol\":{\"keccak256\":\"0x748791457c81837624bad84ee585d40cc3f64aac8fcad8bf5eba4e10e8ff5c0e\",\"urls\":[\"bzz-raw://cfdffc6e4160b033e1511916198350b2dd7e325787d1f5f613b419297e24c0a6\",\"dweb:/ipfs/QmZAPCLrw8jZGAfCopBXo9y2XBsr7E5bxHvXGWMa16ZiJh\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.6+commit.6c089d02\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"context\",\"type\":\"bytes32\"}],\"name\":\"addContext\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"context\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"addContextOwner\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"context\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"nodeAddress\",\"type\":\"address\"}],\"name\":\"addNodeToContext\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"context\",\"type\":\"bytes32\"}],\"name\":\"isContext\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"context\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"isContextOwner\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"context\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"nodeAddress\",\"type\":\"address\"}],\"name\":\"isNodeContext\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"nodeAddress\",\"type\":\"address\"},{\"internalType\":\"bytes32\",\"name\":\"context\",\"type\":\"bytes32\"}],\"name\":\"isUniqueHuman\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"context\",\"type\":\"bytes32\"},{\"internalType\":\"bytes32[]\",\"name\":\"cIds\",\"type\":\"bytes32[]\"},{\"internalType\":\"uint8\",\"name\":\"v\",\"type\":\"uint8\"},{\"internalType\":\"bytes32\",\"name\":\"r\",\"type\":\"bytes32\"},{\"internalType\":\"bytes32\",\"name\":\"s\",\"type\":\"bytes32\"}],\"name\":\"register\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"context\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"removeContextOwner\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"context\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"nodeAddress\",\"type\":\"address\"}],\"name\":\"removeNodeToContext\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"context\",\"type\":\"bytes32\"},{\"internalType\":\"bytes32\",\"name\":\"contextid\",\"type\":\"bytes32\"}],\"name\":\"sponsor\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/auryn/bin/sponsor/contracts/BrightID.sol\":\"BrightID\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/auryn/bin/sponsor/contracts/BrightID.sol\":{\"keccak256\":\"0x748791457c81837624bad84ee585d40cc3f64aac8fcad8bf5eba4e10e8ff5c0e\",\"urls\":[\"bzz-raw://cfdffc6e4160b033e1511916198350b2dd7e325787d1f5f613b419297e24c0a6\",\"dweb:/ipfs/QmZAPCLrw8jZGAfCopBXo9y2XBsr7E5bxHvXGWMa16ZiJh\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
+  "immutableReferences": {},
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity ^0.6.3;\n\nabstract contract BrightID {\n    function addContext(bytes32 context) virtual public;\n    function addContextOwner(bytes32 context, address owner) virtual public;\n    function addNodeToContext(bytes32 context, address nodeAddress) virtual public;\n    function register(bytes32 context, bytes32[] memory cIds, uint8 v, bytes32 r, bytes32 s) virtual public;\n    function removeContextOwner(bytes32 context, address owner) virtual public;\n    function removeNodeToContext(bytes32 context, address nodeAddress) virtual public;\n    function sponsor(bytes32 context, bytes32 contextid) virtual public;\n    function isContext(bytes32 context) virtual public view returns(bool);\n    function isContextOwner(bytes32 context, address owner) virtual public view returns(bool);\n    function isNodeContext(bytes32 context, address nodeAddress) virtual public view returns(bool);\n    function isUniqueHuman(address nodeAddress, bytes32 context) virtual public view returns(bool);\n}\n",
-  "sourcePath": "/home/player1/bin/sponsor/contracts/BrightID.sol",
+  "sourcePath": "/home/auryn/bin/sponsor/contracts/BrightID.sol",
   "ast": {
-    "absolutePath": "/home/player1/bin/sponsor/contracts/BrightID.sol",
+    "absolutePath": "/home/auryn/bin/sponsor/contracts/BrightID.sol",
     "exportedSymbols": {
       "BrightID": [
         90
@@ -289,6 +290,7 @@
                 {
                   "constant": false,
                   "id": 3,
+                  "mutability": "mutable",
                   "name": "context",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -346,6 +348,7 @@
                 {
                   "constant": false,
                   "id": 8,
+                  "mutability": "mutable",
                   "name": "context",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -373,6 +376,7 @@
                 {
                   "constant": false,
                   "id": 10,
+                  "mutability": "mutable",
                   "name": "owner",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -431,6 +435,7 @@
                 {
                   "constant": false,
                   "id": 15,
+                  "mutability": "mutable",
                   "name": "context",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -458,6 +463,7 @@
                 {
                   "constant": false,
                   "id": 17,
+                  "mutability": "mutable",
                   "name": "nodeAddress",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -516,6 +522,7 @@
                 {
                   "constant": false,
                   "id": 22,
+                  "mutability": "mutable",
                   "name": "context",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -543,6 +550,7 @@
                 {
                   "constant": false,
                   "id": 25,
+                  "mutability": "mutable",
                   "name": "cIds",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -580,6 +588,7 @@
                 {
                   "constant": false,
                   "id": 27,
+                  "mutability": "mutable",
                   "name": "v",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -607,6 +616,7 @@
                 {
                   "constant": false,
                   "id": 29,
+                  "mutability": "mutable",
                   "name": "r",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -634,6 +644,7 @@
                 {
                   "constant": false,
                   "id": 31,
+                  "mutability": "mutable",
                   "name": "s",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -691,6 +702,7 @@
                 {
                   "constant": false,
                   "id": 36,
+                  "mutability": "mutable",
                   "name": "context",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -718,6 +730,7 @@
                 {
                   "constant": false,
                   "id": 38,
+                  "mutability": "mutable",
                   "name": "owner",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -776,6 +789,7 @@
                 {
                   "constant": false,
                   "id": 43,
+                  "mutability": "mutable",
                   "name": "context",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -803,6 +817,7 @@
                 {
                   "constant": false,
                   "id": 45,
+                  "mutability": "mutable",
                   "name": "nodeAddress",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -861,6 +876,7 @@
                 {
                   "constant": false,
                   "id": 50,
+                  "mutability": "mutable",
                   "name": "context",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -888,6 +904,7 @@
                 {
                   "constant": false,
                   "id": 52,
+                  "mutability": "mutable",
                   "name": "contextid",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -945,6 +962,7 @@
                 {
                   "constant": false,
                   "id": 57,
+                  "mutability": "mutable",
                   "name": "context",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -979,6 +997,7 @@
                 {
                   "constant": false,
                   "id": 60,
+                  "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -1030,6 +1049,7 @@
                 {
                   "constant": false,
                   "id": 64,
+                  "mutability": "mutable",
                   "name": "context",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -1057,6 +1077,7 @@
                 {
                   "constant": false,
                   "id": 66,
+                  "mutability": "mutable",
                   "name": "owner",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -1092,6 +1113,7 @@
                 {
                   "constant": false,
                   "id": 69,
+                  "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -1143,6 +1165,7 @@
                 {
                   "constant": false,
                   "id": 73,
+                  "mutability": "mutable",
                   "name": "context",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -1170,6 +1193,7 @@
                 {
                   "constant": false,
                   "id": 75,
+                  "mutability": "mutable",
                   "name": "nodeAddress",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -1205,6 +1229,7 @@
                 {
                   "constant": false,
                   "id": 78,
+                  "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -1256,6 +1281,7 @@
                 {
                   "constant": false,
                   "id": 82,
+                  "mutability": "mutable",
                   "name": "nodeAddress",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -1284,6 +1310,7 @@
                 {
                   "constant": false,
                   "id": 84,
+                  "mutability": "mutable",
                   "name": "context",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -1318,6 +1345,7 @@
                 {
                   "constant": false,
                   "id": 87,
+                  "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -1359,7 +1387,7 @@
     "src": "0:993:0"
   },
   "legacyAST": {
-    "absolutePath": "/home/player1/bin/sponsor/contracts/BrightID.sol",
+    "absolutePath": "/home/auryn/bin/sponsor/contracts/BrightID.sol",
     "exportedSymbols": {
       "BrightID": [
         90
@@ -1411,6 +1439,7 @@
                 {
                   "constant": false,
                   "id": 3,
+                  "mutability": "mutable",
                   "name": "context",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -1468,6 +1497,7 @@
                 {
                   "constant": false,
                   "id": 8,
+                  "mutability": "mutable",
                   "name": "context",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -1495,6 +1525,7 @@
                 {
                   "constant": false,
                   "id": 10,
+                  "mutability": "mutable",
                   "name": "owner",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -1553,6 +1584,7 @@
                 {
                   "constant": false,
                   "id": 15,
+                  "mutability": "mutable",
                   "name": "context",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -1580,6 +1612,7 @@
                 {
                   "constant": false,
                   "id": 17,
+                  "mutability": "mutable",
                   "name": "nodeAddress",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -1638,6 +1671,7 @@
                 {
                   "constant": false,
                   "id": 22,
+                  "mutability": "mutable",
                   "name": "context",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -1665,6 +1699,7 @@
                 {
                   "constant": false,
                   "id": 25,
+                  "mutability": "mutable",
                   "name": "cIds",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -1702,6 +1737,7 @@
                 {
                   "constant": false,
                   "id": 27,
+                  "mutability": "mutable",
                   "name": "v",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -1729,6 +1765,7 @@
                 {
                   "constant": false,
                   "id": 29,
+                  "mutability": "mutable",
                   "name": "r",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -1756,6 +1793,7 @@
                 {
                   "constant": false,
                   "id": 31,
+                  "mutability": "mutable",
                   "name": "s",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -1813,6 +1851,7 @@
                 {
                   "constant": false,
                   "id": 36,
+                  "mutability": "mutable",
                   "name": "context",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -1840,6 +1879,7 @@
                 {
                   "constant": false,
                   "id": 38,
+                  "mutability": "mutable",
                   "name": "owner",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -1898,6 +1938,7 @@
                 {
                   "constant": false,
                   "id": 43,
+                  "mutability": "mutable",
                   "name": "context",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -1925,6 +1966,7 @@
                 {
                   "constant": false,
                   "id": 45,
+                  "mutability": "mutable",
                   "name": "nodeAddress",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -1983,6 +2025,7 @@
                 {
                   "constant": false,
                   "id": 50,
+                  "mutability": "mutable",
                   "name": "context",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -2010,6 +2053,7 @@
                 {
                   "constant": false,
                   "id": 52,
+                  "mutability": "mutable",
                   "name": "contextid",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -2067,6 +2111,7 @@
                 {
                   "constant": false,
                   "id": 57,
+                  "mutability": "mutable",
                   "name": "context",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -2101,6 +2146,7 @@
                 {
                   "constant": false,
                   "id": 60,
+                  "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -2152,6 +2198,7 @@
                 {
                   "constant": false,
                   "id": 64,
+                  "mutability": "mutable",
                   "name": "context",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -2179,6 +2226,7 @@
                 {
                   "constant": false,
                   "id": 66,
+                  "mutability": "mutable",
                   "name": "owner",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -2214,6 +2262,7 @@
                 {
                   "constant": false,
                   "id": 69,
+                  "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -2265,6 +2314,7 @@
                 {
                   "constant": false,
                   "id": 73,
+                  "mutability": "mutable",
                   "name": "context",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -2292,6 +2342,7 @@
                 {
                   "constant": false,
                   "id": 75,
+                  "mutability": "mutable",
                   "name": "nodeAddress",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -2327,6 +2378,7 @@
                 {
                   "constant": false,
                   "id": 78,
+                  "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -2378,6 +2430,7 @@
                 {
                   "constant": false,
                   "id": 82,
+                  "mutability": "mutable",
                   "name": "nodeAddress",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -2406,6 +2459,7 @@
                 {
                   "constant": false,
                   "id": 84,
+                  "mutability": "mutable",
                   "name": "context",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -2440,6 +2494,7 @@
                 {
                   "constant": false,
                   "id": 87,
+                  "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
@@ -2482,11 +2537,11 @@
   },
   "compiler": {
     "name": "solc",
-    "version": "0.6.4+commit.1dca32f3.Emscripten.clang"
+    "version": "0.6.6+commit.6c089d02.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.0.23",
-  "updatedAt": "2020-04-02T03:40:03.107Z",
+  "schemaVersion": "3.1.0",
+  "updatedAt": "2020-04-12T13:52:14.248Z",
   "devdoc": {
     "methods": {}
   },
