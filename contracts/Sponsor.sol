@@ -1,28 +1,22 @@
-
 pragma solidity ^0.6.4;
 
-import "./BrightID.sol";
-
 contract Sponsor {
- BrightID public brightID;
  bytes32 public context;
 
- constructor(BrightID _brightID, bytes32 _context) public {
-   brightID = _brightID;
-   context = _context;
- }
+ event sponsor(address sponsee);
 
+ // sponsor any address that calls a function other than sponsorAdd in this contract.
  fallback() external payable {
-  sponsor(msg.sender);
+  sponsorAdd(msg.sender);
  }
 
  // sponsor any address that sends a transaction to this contract.
  receive() external payable {
-   sponsor(msg.sender);
+   sponsorAdd(msg.sender);
  }
 
- // sponsor any address is provided by as an parameter.
- function sponsor(address add) public {
-   brightID.sponsor(context, bytes32(uint(add)));
+ // sponsor any address provided as a parameter.
+ function sponsorAdd(address add) public {
+   emit sponsor(add);
  }
 }
