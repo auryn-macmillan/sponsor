@@ -1,5 +1,5 @@
 {
-  "contractName": "Sponsor",
+  "contractName": "brightIDSponsor",
   "abi": [
     {
       "anonymous": false,
@@ -7,7 +7,7 @@
         {
           "indexed": false,
           "internalType": "address",
-          "name": "sponsee",
+          "name": "",
           "type": "address"
         }
       ],
@@ -16,13 +16,11 @@
     },
     {
       "stateMutability": "payable",
-      "type": "fallback",
-      "payable": true
+      "type": "fallback"
     },
     {
       "stateMutability": "payable",
-      "type": "receive",
-      "payable": true
+      "type": "receive"
     },
     {
       "inputs": [
@@ -38,17 +36,17 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.9+commit.3e3065ac\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"address\",\"name\":\"sponsee\",\"type\":\"address\"}],\"name\":\"Sponsor\",\"type\":\"event\"},{\"stateMutability\":\"payable\",\"type\":\"fallback\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"add\",\"type\":\"address\"}],\"name\":\"sponsor\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"stateMutability\":\"payable\",\"type\":\"receive\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/player1/bin/burn/sponsor/contracts/Sponsor.sol\":\"Sponsor\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/player1/bin/burn/sponsor/contracts/Sponsor.sol\":{\"keccak256\":\"0x340e983aa0325767935e3469db5a82e7f8515e99b4ce2fc6a401e862439b10e0\",\"urls\":[\"bzz-raw://cc1c8cd59195d26a03c3219e352049eb741266d84cce66dba525f2f91588974d\",\"dweb:/ipfs/QmZSKM6Fe2ykPLodoEUeLqxGdepvFkT7gCy6inv9thhrWn\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b5061011e806100206000396000f3fe608060405260043610601f5760003560e01c8063766c4f3714603557602c565b36602c57602a336082565b005b6033336082565b005b348015604057600080fd5b50608060048036036020811015605557600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506082565b005b7f45731ed8c44f9ae4a6da66b49b81184a6565962041a2485f62942faa4da6df6081604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a15056fea2646970667358221220bcd7522cf9cf0aa691df2025fb40a698ce341f25c735ec352b511ec5b048bb7964736f6c63430006090033",
-  "deployedBytecode": "0x608060405260043610601f5760003560e01c8063766c4f3714603557602c565b36602c57602a336082565b005b6033336082565b005b348015604057600080fd5b50608060048036036020811015605557600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506082565b005b7f45731ed8c44f9ae4a6da66b49b81184a6565962041a2485f62942faa4da6df6081604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a15056fea2646970667358221220bcd7522cf9cf0aa691df2025fb40a698ce341f25c735ec352b511ec5b048bb7964736f6c63430006090033",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.9+commit.3e3065ac\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"Sponsor\",\"type\":\"event\"},{\"stateMutability\":\"payable\",\"type\":\"fallback\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"add\",\"type\":\"address\"}],\"name\":\"sponsor\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"stateMutability\":\"payable\",\"type\":\"receive\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/player1/bin/burn/sponsor/contracts/brightIDSponsor.sol\":\"brightIDSponsor\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/player1/bin/burn/sponsor/contracts/brightIDSponsor.sol\":{\"keccak256\":\"0xb554a2d69c1f8836092d7b544947c95156de3fcdcd6d4945e7b7f3de35c08f89\",\"urls\":[\"bzz-raw://363bed9c7f8c072410c3883f2345dae5a4b64c9c5605d433d7111861dc284103\",\"dweb:/ipfs/QmQKwni9qDAXH3mtCkcj24yBVqxVp9Vkv6GbWEgZLW1ymP\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5061011e806100206000396000f3fe608060405260043610601f5760003560e01c8063766c4f3714603557602c565b36602c57602a336082565b005b6033336082565b005b348015604057600080fd5b50608060048036036020811015605557600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506082565b005b7f45731ed8c44f9ae4a6da66b49b81184a6565962041a2485f62942faa4da6df6081604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a15056fea264697066735822122058c0f24658148ca0d95eb39e9c190f7176ecb0f2e6fef14e47e01cf06a4522bb64736f6c63430006090033",
+  "deployedBytecode": "0x608060405260043610601f5760003560e01c8063766c4f3714603557602c565b36602c57602a336082565b005b6033336082565b005b348015604057600080fd5b50608060048036036020811015605557600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506082565b005b7f45731ed8c44f9ae4a6da66b49b81184a6565962041a2485f62942faa4da6df6081604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390a15056fea264697066735822122058c0f24658148ca0d95eb39e9c190f7176ecb0f2e6fef14e47e01cf06a4522bb64736f6c63430006090033",
   "sourceMap": "25:448:2:-:0;;;;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "25:448:2:-:0;;;;;;;;;;;;;;;;;;;;;;;333:19;341:10;333:7;:19::i;:::-;25:448;;208:19;216:10;208:7;:19::i;:::-;25:448;408:63;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;455:12;463:3;455:12;;;;;;;;;;;;;;;;;;;;;;408:63;:::o",
-  "source": "pragma solidity ^0.6.4;\n\ncontract Sponsor {\n\n event Sponsor(address sponsee);\n\n // sponsor any address that attempts to call a function other than sponsor() in this contract.\n fallback() external payable {\n  sponsor(msg.sender);\n }\n\n // sponsor any address that sends a transaction to this contract.\n receive() external payable {\n   sponsor(msg.sender);\n }\n\n // sponsor any address provided as a parameter.\n function sponsor(address add) public {\n   emit Sponsor(add);\n }\n}\n",
-  "sourcePath": "/home/player1/bin/burn/sponsor/contracts/Sponsor.sol",
+  "source": "pragma solidity ^0.6.4;\n\ncontract brightIDSponsor {\n\n event Sponsor(address);\n\n // sponsor any address that attempts to call a function other than sponsor() in this contract.\n fallback() external payable {\n  sponsor(msg.sender);\n }\n\n // sponsor any address that sends a transaction to this contract.\n receive() external payable {\n   sponsor(msg.sender);\n }\n\n // sponsor any address provided as a parameter.\n function sponsor(address add) public {\n   emit Sponsor(add);\n }\n}\n",
+  "sourcePath": "/home/player1/bin/burn/sponsor/contracts/brightIDSponsor.sol",
   "ast": {
-    "absolutePath": "/home/player1/bin/burn/sponsor/contracts/Sponsor.sol",
+    "absolutePath": "/home/player1/bin/burn/sponsor/contracts/brightIDSponsor.sol",
     "exportedSymbols": {
-      "Sponsor": [
+      "brightIDSponsor": [
         162
       ]
     },
@@ -78,7 +76,7 @@
         "linearizedBaseContracts": [
           162
         ],
-        "name": "Sponsor",
+        "name": "brightIDSponsor",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
@@ -96,11 +94,11 @@
                   "id": 131,
                   "indexed": false,
                   "mutability": "mutable",
-                  "name": "sponsee",
+                  "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
                   "scope": 133,
-                  "src": "60:15:2",
+                  "src": "68:7:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -111,7 +109,7 @@
                     "id": 130,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "60:7:2",
+                    "src": "68:7:2",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -122,9 +120,9 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "59:17:2"
+              "src": "67:9:2"
             },
-            "src": "46:31:2"
+            "src": "54:23:2"
           },
           {
             "body": {
@@ -464,9 +462,9 @@
     "src": "0:474:2"
   },
   "legacyAST": {
-    "absolutePath": "/home/player1/bin/burn/sponsor/contracts/Sponsor.sol",
+    "absolutePath": "/home/player1/bin/burn/sponsor/contracts/brightIDSponsor.sol",
     "exportedSymbols": {
-      "Sponsor": [
+      "brightIDSponsor": [
         162
       ]
     },
@@ -496,7 +494,7 @@
         "linearizedBaseContracts": [
           162
         ],
-        "name": "Sponsor",
+        "name": "brightIDSponsor",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
@@ -514,11 +512,11 @@
                   "id": 131,
                   "indexed": false,
                   "mutability": "mutable",
-                  "name": "sponsee",
+                  "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
                   "scope": 133,
-                  "src": "60:15:2",
+                  "src": "68:7:2",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -529,7 +527,7 @@
                     "id": 130,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "60:7:2",
+                    "src": "68:7:2",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -540,9 +538,9 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "59:17:2"
+              "src": "67:9:2"
             },
-            "src": "46:31:2"
+            "src": "54:23:2"
           },
           {
             "body": {
@@ -885,44 +883,9 @@
     "name": "solc",
     "version": "0.6.9+commit.3e3065ac.Emscripten.clang"
   },
-  "networks": {
-    "5777": {
-      "events": {
-        "0x766c4f3788585f8e621c888eceec4f0148b6cf136278b4e7dd3a8f460507fbaf": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": false,
-              "internalType": "address",
-              "name": "sponsee",
-              "type": "address"
-            }
-          ],
-          "name": "sponsor",
-          "type": "event"
-        },
-        "0x45731ed8c44f9ae4a6da66b49b81184a6565962041a2485f62942faa4da6df60": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": false,
-              "internalType": "address",
-              "name": "sponsee",
-              "type": "address"
-            }
-          ],
-          "name": "Sponsor",
-          "type": "event"
-        }
-      },
-      "links": {},
-      "address": "0xFDc992140501d54A0Aa6e98248a0Ab313FF0018A",
-      "transactionHash": "0xae9c19a0d27798d96e6cb9575ef0c89d2986909f5ce9c671b4ee975ec581c3f7"
-    }
-  },
+  "networks": {},
   "schemaVersion": "3.0.23",
-  "updatedAt": "2020-06-04T17:38:55.937Z",
-  "networkType": "ethereum",
+  "updatedAt": "2020-06-04T17:47:23.673Z",
   "devdoc": {
     "methods": {}
   },
